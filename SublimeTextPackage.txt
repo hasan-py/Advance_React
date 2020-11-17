@@ -1,0 +1,18 @@
+1. SidebarEnhancement
+2. BraketHighlighter
+3. Djaneiro
+4. Dracula Color Scheme
+4. Emmet
+5. FileIcons
+6. HTML Page Snippets 
+7. HTMLBeautify
+8. Laravel Blade Highlighter
+9. Package Control
+10. React ES6 Snippets
+11. SublimeLinter
+12. TypeScript Syntax
+13. Vue Syntax Highlight
+14. Vuejs Snippets
+15. 0_package_control_loader
+16. Babel
+17. Babel Snippest
