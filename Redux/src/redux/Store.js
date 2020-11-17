@@ -1,11 +1,12 @@
-import BookReducer from './BookReducer';
-import MultipleReducer from './MultipleReducer';
+import { createStore, combineReducers } from "redux"
+import TodosReducers from './TodosReducers';
+import TotalTodosReducers from './TotalTodosReducers';
 
-import { createStore } from 'redux';
-
-const Store = createStore({
-	BookReducer,
-	MultipleReducer
+const AllReducer = combineReducers({
+	TodosReducers,
+	TotalTodosReducers
 })
+
+const Store = createStore(AllReducer)
 
 export default Store

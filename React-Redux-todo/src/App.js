@@ -3,9 +3,8 @@ import {useSelector,useDispatch} from 'react-redux'
 import User from './Components/User'
 import Counter from './Components/Counter'
 
-
-
 const App = () => {
+    
 	const count = useSelector(state => state.CounterReducer)
 	const users = useSelector(state => state.UserReducer)
 	const dispatch = useDispatch()

@@ -1,8 +1,8 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState} from 'react'
 import {useSelector,useDispatch} from 'react-redux'
 
-
 export const ShowList = ({edit})=> {
+    
     const userName = useSelector(state => state.UserReducer)
     const dispatch = useDispatch()
     
@@ -44,6 +44,7 @@ const User = () => {
             setInput("")
             setEdit(false)
             setIndex(null)
+            console.log(users);
         }else{
             e.preventDefault()
             dipatch({type:"ADD_USER",payload:input})

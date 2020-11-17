@@ -1,22 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Provider } from 'react-redux'
-
-import BookContainer from './components/bookContainer'
-import HookBookContainer from './components/hookBookContainer'
+import TodoForm from './components/TodoForm'
+import TotalTodoComponent from './components/TotalTodoComponent'
 
 import Store from './redux/Store';
 
-class App extends Component {
-    render() {
-        return (
-            <Provider store={Store}>	
-				<div>
-					<BookContainer/>
-					<HookBookContainer/>
-				</div>
-			</Provider>
-        );
-    }
+const App = (props) => {
+  return (
+    <Provider store={Store}>
+    	<TotalTodoComponent/>
+    	<TodoForm/>
+    </Provider>
+  )
 }
+
 
 export default App;
