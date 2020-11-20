@@ -3,7 +3,7 @@ import { useFormik } from 'formik';
 import { initialValues } from './validate/FormValidate';
 import * as Yup from 'yup';
 
-const OldForm = (props) => {
+const FormWithUseFormik = (props) => {
 
 	// Must need to define at first of formik
     const validationSchema = Yup.object({
@@ -79,4 +79,4 @@ const OldForm = (props) => {
     )
 }
 
-export default OldForm;
+export default FormWithUseFormik;
