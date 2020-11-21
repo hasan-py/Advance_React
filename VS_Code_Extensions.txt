@@ -1,0 +1,16 @@
+1. npm intelisense
+2. npm 
+3. Beauityfi
+4. JShint
+5. ESlint
+6. code runner
+7. IntilliSence for css class names
+8. Auto close tag
+9. Js ES6 / ES7 Code snippiest
+10. HTML Css support
+11. Prettier Code formatter
+12. Code spell checker
+13. Path Intellisense
+14. Quokka.js
+15. open in browser
+16. Live server
