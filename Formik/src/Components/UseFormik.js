@@ -1,9 +1,14 @@
 import React from 'react';
 import { useFormik } from 'formik';
-import { initialValues } from './validate/FormValidate';
 import * as Yup from 'yup';
 
 const FormWithUseFormik = (props) => {
+
+	const initialValues = {
+		email: "",
+		password: "",
+		youtube: "",
+  	};	
 
 	// Must need to define at first of formik
     const validationSchema = Yup.object({

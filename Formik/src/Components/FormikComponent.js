@@ -30,7 +30,8 @@ const FormWithFormikComponent = (props) => {
     });
 
     const onSubmit = (values, bag) => {
-        console.log("Form submiteed", bag, values);
+		console.log("Form submiteed", bag, values);
+		console.log(Formik());
     }
 
     return (

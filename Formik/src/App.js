@@ -1,16 +1,18 @@
 import React from 'react'
 import './App.css';
-// import FormWithUseFormik from './Components/FormWithUseFormik';
-// import NewFormWithUseFormik from './Components/NewFormWithUseFormik';
-import FormWithFormikComponent from './Components/FormWithFormikComponent';
+// import FormikComponent from './Components/FormikComponent';
+// import NewUseFormik from './Components/NewUseFormik';
+// import UseFormik from './Components/UseFormik';
+import FormikWithRenderMethod from './Components/FormikWithRenderMethod';
 
 const App = () => {
 
   return (
     <div className="container m-5">
-    	{/*<FormWithUseFormik/>*/}
-    	{/*<NewFormWithUseFormik/>*/}
-    	<FormWithFormikComponent/>
+    	{/*<FormikComponent/>*/}
+    	{/*<NewUseFormik/>*/}
+    	{/* <UseFormik/> */}
+    	<FormikWithRenderMethod/>
     </div>
   )
 }
