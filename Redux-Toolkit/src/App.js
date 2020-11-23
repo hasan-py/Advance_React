@@ -1,11 +1,10 @@
 import React from 'react'
+import Routes from './components/app/Routes';
 
 const App = () => {
 
   return (
-    <div className="container m-5">
-    	<h1>Hello World</h1>
-    </div>
+    <Routes/>
   )
 }
 
