@@ -28,14 +28,10 @@ const AnotherPost = ()=> {
 const Posts = (props) => {
 
     // get Post data from store
-    const postData = useSelector((state) => {
-        return state.postReducer
-    });
+    const postData = useSelector(state => state.postReducer);
 
     // get User data from store
-    const userData = useSelector((state) => {
-        return state.homeReducer
-    });
+    const userData = useSelector(state => state.homeReducer);
 
     return (
         <div className="container">

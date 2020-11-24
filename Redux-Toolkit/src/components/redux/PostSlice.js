@@ -1,9 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
-
+ 
 const initState = {
-  posts:"Awesome Post"
+  posts:null
 };
 
+// Here All of the ruducing function will be in reducers object
 const postReducerSlice = createSlice({
   name: "postReducer",
   initialState: initState,

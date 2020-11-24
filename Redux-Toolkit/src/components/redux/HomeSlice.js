@@ -7,6 +7,7 @@ const initState = {
   user:"Hasan"
 };
 
+// Here All of the ruducing function will be in reducers object
 const homeReducerSlice = createSlice({
   name: "homeReducer",
   initialState: initState,
