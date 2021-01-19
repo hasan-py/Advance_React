@@ -1,12 +1,12 @@
-import { createStore, combineReducers } from "redux"
-import TodosReducers from './TodosReducers';
-import TotalTodosReducers from './TotalTodosReducers';
+import { createStore, combineReducers } from "redux";
+import TodosReducers from "./TodosReducers";
+import TotalTodosReducers from "./TotalTodosReducers";
 
 const AllReducer = combineReducers({
-	TodosReducers,
-	TotalTodosReducers
-})
+  TodosReducers,
+  TotalTodosReducers,
+});
 
-const Store = createStore(AllReducer)
+const Store = createStore(AllReducer);
 
-export default Store
+export default Store;

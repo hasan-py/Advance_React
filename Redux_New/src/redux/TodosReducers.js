@@ -1,17 +1,18 @@
 const InitialState = {
-	todos:[],
-	edit:false,
-}
+  todos: [],
+  edit: false,
+};
 
-const TodosReducers = (state=InitialState,action)=>{
-	switch(action.type){
-		case "add":
-			return{
-				...state,
-				todos:[...state.todos, action.payload]
-			}
-		default:return state
-	}
-}
+const TodosReducers = (state = InitialState, action) => {
+  switch (action.type) {
+    case "add":
+      return {
+        ...state,
+        todos: [...state.todos, action.payload],
+      };
+    default:
+      return state;
+  }
+};
 
-export default TodosReducers
+export default TodosReducers;

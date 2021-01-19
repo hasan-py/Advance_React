@@ -2,9 +2,9 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initState = {
   loading: false,
-  error: '',
+  error: "",
   msg: "",
-  user:"Hasan"
+  user: "Hasan",
 };
 
 // Here All of the ruducing function will be in reducers object
@@ -12,7 +12,6 @@ const homeReducerSlice = createSlice({
   name: "homeReducer",
   initialState: initState,
   reducers: {
-
     SetUser: (state, action) => {
       const { payload } = action;
       state.user = payload;
@@ -29,9 +28,7 @@ const homeReducerSlice = createSlice({
     ChangeError: (state, action) => {
       state.error = action.payload;
     },
-
-  }
+  },
 });
 
-export default homeReducerSlice
-
+export default homeReducerSlice;

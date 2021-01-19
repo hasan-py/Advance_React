@@ -1,10 +1,8 @@
-import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import React from "react";
+import { useSelector, useDispatch } from "react-redux";
 
 const AllTodos = (props) => {
-  return (
-    <div></div>
-  )
-}
+  return <div></div>;
+};
 
 export default AllTodos;

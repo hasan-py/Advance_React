@@ -1,13 +1,8 @@
-import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import Home from './Home';
-import Posts from './Posts';
+import Home from "./Home";
+import Posts from "./Posts";
 
 const Routes = (props) => {
   return (
@@ -16,7 +11,7 @@ const Routes = (props) => {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Home</Link>s
             </li>
             <li>
               <Link to="/posts">Posts</Link>
@@ -36,7 +31,7 @@ const Routes = (props) => {
         </Switch>
       </div>
     </Router>
-  )
-}
+  );
+};
 
 export default Routes;
