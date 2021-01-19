@@ -1,31 +1,31 @@
-export const increment = ()=>{
-	return {
-		type:"INCREMENT"
-	}	
-}
+export const increment = () => {
+  return {
+    type: "INCREMENT",
+  };
+};
 
-export const decrement = ()=>{
-	return {
-		type:"DECREMENT"
-	}
-}
+export const decrement = () => {
+  return {
+    type: "DECREMENT",
+  };
+};
 
-export const reset = ()=>{
-	return {
-		type:"RESET"
-	}
-}
+export const reset = () => {
+  return {
+    type: "RESET",
+  };
+};
 
-export const add = (name)=>{
-	return {
-		type:"ADD_USER",
-		payload:name
-	}
-}
+export const add = (name) => {
+  return {
+    type: "ADD_USER",
+    payload: name,
+  };
+};
 
-export const remove = (index)=>{
-	return {
-		type:"REMOVE_USER",
-		index
-	}
-}
+export const remove = (index) => {
+  return {
+    type: "REMOVE_USER",
+    index,
+  };
+};

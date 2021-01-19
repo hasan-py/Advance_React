@@ -1,10 +1,10 @@
-import { combineReducers } from "redux"
-import CounterReducer from './CounterReducer'
-import UserReducer from './UserReducer'
+import { combineReducers } from "redux";
+import CounterReducer from "./CounterReducer";
+import UserReducer from "./UserReducer";
 
 const AllReducer = combineReducers({
-	CounterReducer,
-	UserReducer
-})
+  CounterReducer,
+  UserReducer,
+});
 
-export default AllReducer
+export default AllReducer;
